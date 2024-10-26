@@ -1,0 +1,91 @@
+body{
+    background-color: #141519;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+.box{
+    padding: 20px;
+    width: 350px;
+    background:linear-gradient(to bottom, #202a33,#171e26)
+    ;
+border-radius: 20px;
+}
+p{
+    flex-wrap: wrap;
+    color: #727983;
+}
+.star{
+    background-color: #282f31;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    
+}
+h4{
+    display: grid;
+    place-content: center;
+    background-color: #262f38;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #808992;
+}
+.numbers{
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px;
+    gap: 37px;
+}
+.button{
+    display: grid;
+    place-content: center;
+}
+button{
+    width: 300px;
+    background-color: #fc7613;
+    border: none;
+    height: 30px;
+    border-radius: 20px;
+}
+*{
+    font-family: sans-serif;
+    
+}
+h{
+    display: grid;
+    place-content: center;
+    font-size: 30px;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.first:hover{
+    background-color: #fc7613;
+       border: 2px black solid;
+}
+.second:hover{
+    background-color: #fc7613;
+    border: 2px black solid;
+}
+.third:hover{
+    background-color: #fc7613;
+    border: 2px black solid;
+}
+.fourth:hover{
+    background-color: #fc7613;
+    border: 2px black solid;
+}
+.fiveth:hover{
+    background-color: #fc7613;
+    border: 2px black solid;
+}
+h4{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
